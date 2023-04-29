@@ -1,0 +1,7 @@
+site_name: 'task-runner-docs'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
