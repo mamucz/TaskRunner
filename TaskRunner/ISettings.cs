@@ -3,7 +3,7 @@ namespace TaskRunner;
 public interface ISettings
 {
     /// <summary>
-    /// Safety interval of each task. Cannot rerun more often.
+    /// Safety interval of each task. Cannot rerun more often. 
     /// </summary>
     TimeSpan Interval { get; }
     
