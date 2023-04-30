@@ -35,9 +35,9 @@ jobs:
 
     - name: Convert XML documentation to Markdown
       run: |
-        python -m xml2markdown -i path/to/your/xml/documentation -o path/to/markdown/output
-        git config --global user.email "github-action-bot@example.com"
+        python -m xml2markdown -i TaskRunner/bin/Release/net7.0 -o .docs
+        git config --global user.email "mamucz@gmail.com"
         git config --global user.name "GitHub Action Bot"
-        git add path/to/markdown/output
+        git add .docs
         git commit -m "Update Markdown documentation" || true
         git push
