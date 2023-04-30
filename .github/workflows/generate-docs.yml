@@ -24,17 +24,26 @@ jobs:
     - name: Generate XML documentation
       run: dotnet build --configuration Release /p:GenerateDocumentationFile=true /p:NoWarn=1591
 
-    - name: Setup DocFX
+    - name: Remove existing docfx.zip file
+      run: rm -f docfx.zip
+
+    - name: Download and install DocFX
       run: |
         wget -qO- https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -O docfx.zip
         unzip -qq docfx.zip -d /usr/local/bin
         rm docfx.zip
 
-    - name: Convert XML documentation to Markdown
+    - name: Generate Markdown documentation
       run: |
         docfx metadata -f TaskRunner.csproj -o docs
-        git config --global user.email "petr.ondra@rtprocessing.com"
+        git config --global user.email "bot@example.com"
         git config --global user.name "GitHub Action Bot"
         git add docs
         git commit -m "Update Markdown documentation" || true
         git push
+
+
+
+
+
+
