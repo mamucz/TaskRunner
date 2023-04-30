@@ -24,20 +24,14 @@ jobs:
     - name: Generate XML documentation
       run: dotnet build --configuration Release /p:GenerateDocumentationFile=true /p:NoWarn=1591
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
-    - name: Install Install xml2md
+    - name: Setup DocFX
       run: |
-        python -m pip install --upgrade pip
-        python -m pip install xml2md
+        wget -qO- https://github.com/dotnet/docfx/releases/latest/download/docfx.zip | bsdtar -xvf- -C /usr/local/bin
 
     - name: Convert XML documentation to Markdown
       run: |
-        python -m xml2markdown -i TaskRunner/bin/Release/net7.0/TaskRunner.xml -o docs
-        git config --global user.email "mamucz@rtprocessing.com"
+        docfx metadata -f TaskRunner.csproj -o docs
+        git config --global user.email "petr.ondra@rtprocessing.com"
         git config --global user.name "GitHub Action Bot"
         git add docs
         git commit -m "Update Markdown documentation" || true
