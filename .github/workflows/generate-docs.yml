@@ -26,7 +26,9 @@ jobs:
 
     - name: Setup DocFX
       run: |
-        wget -qO- https://github.com/dotnet/docfx/releases/latest/download/docfx.zip | bsdtar -xvf- -C /usr/local/bin
+        wget -qO- https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -O docfx.zip
+        unzip -qq docfx.zip -d /usr/local/bin
+        rm docfx.zip
 
     - name: Convert XML documentation to Markdown
       run: |
