@@ -29,9 +29,10 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install Xml2Markdown
+    - name: Install Install xml2md
       run: |
-        python -m pip install xml2markdown
+        python -m pip install --upgrade pip
+        python -m pip install xml2md
 
     - name: Convert XML documentation to Markdown
       run: |
