@@ -20,7 +20,10 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore
-
+      
+    - name: Install DocFX
+      run: dotnet tool install --global docfx
+      
     - name: Init docFX
       run: docfx init -q
 
