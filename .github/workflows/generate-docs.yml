@@ -3,46 +3,29 @@ name: Generate Documentation
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
-  generate_docs:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v2
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '7.0.x'
+        dotnet-version: '6.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore
-      
     - name: Install DocFX
-      run: dotnet tool install --global docfx
-      
-    - name: Init docFX
-      run: docfx init -q
+      run: dotnet tool install --global docfx.console       
+    
+    - name: Generate documentation
+      run: docfx
 
-    - name: Goto doc dir
-      run: cd docfx_project
-
-    - name: Generate metadata
-      run: docfx metadata
-
-    - name: Publish Markdown documentation
-      run: |
-        git config --global user.email "bot@example.com"
-        git config --global user.name "GitHub Action Bot"
-        git add docfx_project
-        git commit -m "Update Markdown documentation" || true
-        git push
-
-
-
-
-
-
+    - name: Deploy documentation
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
