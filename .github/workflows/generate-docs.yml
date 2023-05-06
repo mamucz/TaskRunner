@@ -24,11 +24,16 @@ jobs:
     - name: Inicialization DocFX
       run: docfx init -q
 
-    - name: Change dir 
-      run: dir
-
+    - name: Extract metadata
+      working-directory: ./docfx_project
+      run: docfx metadata
+      
+    - name: Build
+      working-directory: ./docfx_project
+      run: docfx build      
+      
     - name: Deploy documentation
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        publish_dir: ./docfx_project/_site
