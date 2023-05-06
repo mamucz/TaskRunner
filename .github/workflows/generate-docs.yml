@@ -19,10 +19,13 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Install DocFX
-      run: dotnet tool install --global docfx.console       
+      run: dotnet tool install --global docfx    
     
-    - name: Generate documentation
-      run: docfx
+    - name: Inicialization DocFX
+      run: docfx init
+
+    - name: Change dir 
+      run: dir
 
     - name: Deploy documentation
       uses: peaceiris/actions-gh-pages@v3
