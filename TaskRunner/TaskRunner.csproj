@@ -6,5 +6,7 @@
         <Nullable>enable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
     </PropertyGroup>
-
+    <ItemGroup>
+	    <PackageReference Include="DefaultDocumentation" Version="0.8.0" PrivateAssets="all"/>
+    </ItemGroup>
 </Project>
