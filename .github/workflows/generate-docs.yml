@@ -22,7 +22,7 @@ jobs:
       run: dotnet tool install --global docfx    
     
     - name: Inicialization DocFX
-      run: docfx init
+      run: docfx init -q
 
     - name: Change dir 
       run: dir
