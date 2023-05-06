@@ -1,3 +1,614 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: TaskRunner
+  name: TaskRunner
+  href: api/TaskRunner.html
+  commentId: N:TaskRunner
+  fullName: TaskRunner
+  nameWithType: TaskRunner
+- uid: TaskRunner.ISender`1
+  name: ISender<T>
+  href: api/TaskRunner.ISender-1.html
+  commentId: T:TaskRunner.ISender`1
+  name.vb: ISender(Of T)
+  fullName: TaskRunner.ISender<T>
+  fullName.vb: TaskRunner.ISender(Of T)
+  nameWithType: ISender<T>
+  nameWithType.vb: ISender(Of T)
+- uid: TaskRunner.ISender`1.SendAsync(`0)
+  name: SendAsync(T)
+  href: api/TaskRunner.ISender-1.html#TaskRunner_ISender_1_SendAsync__0_
+  commentId: M:TaskRunner.ISender`1.SendAsync(`0)
+  fullName: TaskRunner.ISender<T>.SendAsync(T)
+  fullName.vb: TaskRunner.ISender(Of T).SendAsync(T)
+  nameWithType: ISender<T>.SendAsync(T)
+  nameWithType.vb: ISender(Of T).SendAsync(T)
+- uid: TaskRunner.ISender`1.SendAsync*
+  name: SendAsync
+  href: api/TaskRunner.ISender-1.html#TaskRunner_ISender_1_SendAsync_
+  commentId: Overload:TaskRunner.ISender`1.SendAsync
+  isSpec: "True"
+  fullName: TaskRunner.ISender<T>.SendAsync
+  fullName.vb: TaskRunner.ISender(Of T).SendAsync
+  nameWithType: ISender<T>.SendAsync
+  nameWithType.vb: ISender(Of T).SendAsync
+- uid: TaskRunner.ISettings
+  name: ISettings
+  href: api/TaskRunner.ISettings.html
+  commentId: T:TaskRunner.ISettings
+  fullName: TaskRunner.ISettings
+  nameWithType: ISettings
+- uid: TaskRunner.ISettings.ConcurrentCount
+  name: ConcurrentCount
+  href: api/TaskRunner.ISettings.html#TaskRunner_ISettings_ConcurrentCount
+  commentId: P:TaskRunner.ISettings.ConcurrentCount
+  fullName: TaskRunner.ISettings.ConcurrentCount
+  nameWithType: ISettings.ConcurrentCount
+- uid: TaskRunner.ISettings.ConcurrentCount*
+  name: ConcurrentCount
+  href: api/TaskRunner.ISettings.html#TaskRunner_ISettings_ConcurrentCount_
+  commentId: Overload:TaskRunner.ISettings.ConcurrentCount
+  isSpec: "True"
+  fullName: TaskRunner.ISettings.ConcurrentCount
+  nameWithType: ISettings.ConcurrentCount
+- uid: TaskRunner.ISettings.Interval
+  name: Interval
+  href: api/TaskRunner.ISettings.html#TaskRunner_ISettings_Interval
+  commentId: P:TaskRunner.ISettings.Interval
+  fullName: TaskRunner.ISettings.Interval
+  nameWithType: ISettings.Interval
+- uid: TaskRunner.ISettings.Interval*
+  name: Interval
+  href: api/TaskRunner.ISettings.html#TaskRunner_ISettings_Interval_
+  commentId: Overload:TaskRunner.ISettings.Interval
+  isSpec: "True"
+  fullName: TaskRunner.ISettings.Interval
+  nameWithType: ISettings.Interval
+- uid: TaskRunner.ITaskRunner`1
+  name: ITaskRunner<T>
+  href: api/TaskRunner.ITaskRunner-1.html
+  commentId: T:TaskRunner.ITaskRunner`1
+  name.vb: ITaskRunner(Of T)
+  fullName: TaskRunner.ITaskRunner<T>
+  fullName.vb: TaskRunner.ITaskRunner(Of T)
+  nameWithType: ITaskRunner<T>
+  nameWithType.vb: ITaskRunner(Of T)
+- uid: TaskRunner.ITaskRunner`1.Add(`0)
+  name: Add(T)
+  href: api/TaskRunner.ITaskRunner-1.html#TaskRunner_ITaskRunner_1_Add__0_
+  commentId: M:TaskRunner.ITaskRunner`1.Add(`0)
+  fullName: TaskRunner.ITaskRunner<T>.Add(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Add(T)
+  nameWithType: ITaskRunner<T>.Add(T)
+  nameWithType.vb: ITaskRunner(Of T).Add(T)
+- uid: TaskRunner.ITaskRunner`1.Add*
+  name: Add
+  href: api/TaskRunner.ITaskRunner-1.html#TaskRunner_ITaskRunner_1_Add_
+  commentId: Overload:TaskRunner.ITaskRunner`1.Add
+  isSpec: "True"
+  fullName: TaskRunner.ITaskRunner<T>.Add
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Add
+  nameWithType: ITaskRunner<T>.Add
+  nameWithType.vb: ITaskRunner(Of T).Add
+- uid: TaskRunner.ITaskRunner`1.Remove(`0)
+  name: Remove(T)
+  href: api/TaskRunner.ITaskRunner-1.html#TaskRunner_ITaskRunner_1_Remove__0_
+  commentId: M:TaskRunner.ITaskRunner`1.Remove(`0)
+  fullName: TaskRunner.ITaskRunner<T>.Remove(T)
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Remove(T)
+  nameWithType: ITaskRunner<T>.Remove(T)
+  nameWithType.vb: ITaskRunner(Of T).Remove(T)
+- uid: TaskRunner.ITaskRunner`1.Remove*
+  name: Remove
+  href: api/TaskRunner.ITaskRunner-1.html#TaskRunner_ITaskRunner_1_Remove_
+  commentId: Overload:TaskRunner.ITaskRunner`1.Remove
+  isSpec: "True"
+  fullName: TaskRunner.ITaskRunner<T>.Remove
+  fullName.vb: TaskRunner.ITaskRunner(Of T).Remove
+  nameWithType: ITaskRunner<T>.Remove
+  nameWithType.vb: ITaskRunner(Of T).Remove
+- uid: TaskRunner.ITaskRunner`1.RunningCount
+  name: RunningCount
+  href: api/TaskRunner.ITaskRunner-1.html#TaskRunner_ITaskRunner_1_RunningCount
+  commentId: P:TaskRunner.ITaskRunner`1.RunningCount
+  fullName: TaskRunner.ITaskRunner<T>.RunningCount
+  fullName.vb: TaskRunner.ITaskRunner(Of T).RunningCount
+  nameWithType: ITaskRunner<T>.RunningCount
+  nameWithType.vb: ITaskRunner(Of T).RunningCount
+- uid: TaskRunner.ITaskRunner`1.RunningCount*
+  name: RunningCount
+  href: api/TaskRunner.ITaskRunner-1.html#TaskRunner_ITaskRunner_1_RunningCount_
+  commentId: Overload:TaskRunner.ITaskRunner`1.RunningCount
+  isSpec: "True"
+  fullName: TaskRunner.ITaskRunner<T>.RunningCount
+  fullName.vb: TaskRunner.ITaskRunner(Of T).RunningCount
+  nameWithType: ITaskRunner<T>.RunningCount
+  nameWithType.vb: ITaskRunner(Of T).RunningCount
+- uid: TaskRunner.TaskRunner`1
+  name: TaskRunner<T>
+  href: api/TaskRunner.TaskRunner-1.html
+  commentId: T:TaskRunner.TaskRunner`1
+  name.vb: TaskRunner(Of T)
+  fullName: TaskRunner.TaskRunner<T>
+  fullName.vb: TaskRunner.TaskRunner(Of T)
+  nameWithType: TaskRunner<T>
+  nameWithType.vb: TaskRunner(Of T)
+- uid: TaskRunner.TaskRunner`1.#ctor(TaskRunner.ISender{`0},TaskRunner.ISettings)
+  name: TaskRunner(ISender<T>, ISettings)
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1__ctor_TaskRunner_ISender__0__TaskRunner_ISettings_
+  commentId: M:TaskRunner.TaskRunner`1.#ctor(TaskRunner.ISender{`0},TaskRunner.ISettings)
+  name.vb: New(ISender(Of T), ISettings)
+  fullName: TaskRunner.TaskRunner<T>.TaskRunner(TaskRunner.ISender<T>, TaskRunner.ISettings)
+  fullName.vb: TaskRunner.TaskRunner(Of T).New(TaskRunner.ISender(Of T), TaskRunner.ISettings)
+  nameWithType: TaskRunner<T>.TaskRunner(ISender<T>, ISettings)
+  nameWithType.vb: TaskRunner(Of T).New(ISender(Of T), ISettings)
+- uid: TaskRunner.TaskRunner`1.#ctor*
+  name: TaskRunner
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1__ctor_
+  commentId: Overload:TaskRunner.TaskRunner`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskRunner.TaskRunner<T>.TaskRunner
+  fullName.vb: TaskRunner.TaskRunner(Of T).New
+  nameWithType: TaskRunner<T>.TaskRunner
+  nameWithType.vb: TaskRunner(Of T).New
+- uid: TaskRunner.TaskRunner`1.Add(`0)
+  name: Add(T)
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1_Add__0_
+  commentId: M:TaskRunner.TaskRunner`1.Add(`0)
+  fullName: TaskRunner.TaskRunner<T>.Add(T)
+  fullName.vb: TaskRunner.TaskRunner(Of T).Add(T)
+  nameWithType: TaskRunner<T>.Add(T)
+  nameWithType.vb: TaskRunner(Of T).Add(T)
+- uid: TaskRunner.TaskRunner`1.Add*
+  name: Add
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1_Add_
+  commentId: Overload:TaskRunner.TaskRunner`1.Add
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunner<T>.Add
+  fullName.vb: TaskRunner.TaskRunner(Of T).Add
+  nameWithType: TaskRunner<T>.Add
+  nameWithType.vb: TaskRunner(Of T).Add
+- uid: TaskRunner.TaskRunner`1.Remove(`0)
+  name: Remove(T)
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1_Remove__0_
+  commentId: M:TaskRunner.TaskRunner`1.Remove(`0)
+  fullName: TaskRunner.TaskRunner<T>.Remove(T)
+  fullName.vb: TaskRunner.TaskRunner(Of T).Remove(T)
+  nameWithType: TaskRunner<T>.Remove(T)
+  nameWithType.vb: TaskRunner(Of T).Remove(T)
+- uid: TaskRunner.TaskRunner`1.Remove*
+  name: Remove
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1_Remove_
+  commentId: Overload:TaskRunner.TaskRunner`1.Remove
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunner<T>.Remove
+  fullName.vb: TaskRunner.TaskRunner(Of T).Remove
+  nameWithType: TaskRunner<T>.Remove
+  nameWithType.vb: TaskRunner(Of T).Remove
+- uid: TaskRunner.TaskRunner`1.RunningCount
+  name: RunningCount
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1_RunningCount
+  commentId: P:TaskRunner.TaskRunner`1.RunningCount
+  fullName: TaskRunner.TaskRunner<T>.RunningCount
+  fullName.vb: TaskRunner.TaskRunner(Of T).RunningCount
+  nameWithType: TaskRunner<T>.RunningCount
+  nameWithType.vb: TaskRunner(Of T).RunningCount
+- uid: TaskRunner.TaskRunner`1.RunningCount*
+  name: RunningCount
+  href: api/TaskRunner.TaskRunner-1.html#TaskRunner_TaskRunner_1_RunningCount_
+  commentId: Overload:TaskRunner.TaskRunner`1.RunningCount
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunner<T>.RunningCount
+  fullName.vb: TaskRunner.TaskRunner(Of T).RunningCount
+  nameWithType: TaskRunner<T>.RunningCount
+  nameWithType.vb: TaskRunner(Of T).RunningCount
+- uid: TaskRunner.TaskRunnerItem`1
+  name: TaskRunnerItem<T>
+  href: api/TaskRunner.TaskRunnerItem-1.html
+  commentId: T:TaskRunner.TaskRunnerItem`1
+  name.vb: TaskRunnerItem(Of T)
+  fullName: TaskRunner.TaskRunnerItem<T>
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T)
+  nameWithType: TaskRunnerItem<T>
+  nameWithType.vb: TaskRunnerItem(Of T)
+- uid: TaskRunner.TaskRunnerItem`1.#ctor(`0)
+  name: TaskRunnerItem(T)
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1__ctor__0_
+  commentId: M:TaskRunner.TaskRunnerItem`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: TaskRunner.TaskRunnerItem<T>.TaskRunnerItem(T)
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).New(T)
+  nameWithType: TaskRunnerItem<T>.TaskRunnerItem(T)
+  nameWithType.vb: TaskRunnerItem(Of T).New(T)
+- uid: TaskRunner.TaskRunnerItem`1.#ctor*
+  name: TaskRunnerItem
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1__ctor_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TaskRunner.TaskRunnerItem<T>.TaskRunnerItem
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).New
+  nameWithType: TaskRunnerItem<T>.TaskRunnerItem
+  nameWithType.vb: TaskRunnerItem(Of T).New
+- uid: TaskRunner.TaskRunnerItem`1.IsRegistered
+  name: IsRegistered()
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_IsRegistered
+  commentId: M:TaskRunner.TaskRunnerItem`1.IsRegistered
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRegistered()
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRegistered()
+  nameWithType: TaskRunnerItem<T>.IsRegistered()
+  nameWithType.vb: TaskRunnerItem(Of T).IsRegistered()
+- uid: TaskRunner.TaskRunnerItem`1.IsRegistered*
+  name: IsRegistered
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_IsRegistered_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.IsRegistered
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRegistered
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRegistered
+  nameWithType: TaskRunnerItem<T>.IsRegistered
+  nameWithType.vb: TaskRunnerItem(Of T).IsRegistered
+- uid: TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered
+  name: IsRunningOrNotRegistered()
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_IsRunningOrNotRegistered
+  commentId: M:TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRunningOrNotRegistered()
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRunningOrNotRegistered()
+  nameWithType: TaskRunnerItem<T>.IsRunningOrNotRegistered()
+  nameWithType.vb: TaskRunnerItem(Of T).IsRunningOrNotRegistered()
+- uid: TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered*
+  name: IsRunningOrNotRegistered
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_IsRunningOrNotRegistered_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.IsRunningOrNotRegistered
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.IsRunningOrNotRegistered
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).IsRunningOrNotRegistered
+  nameWithType: TaskRunnerItem<T>.IsRunningOrNotRegistered
+  nameWithType.vb: TaskRunnerItem(Of T).IsRunningOrNotRegistered
+- uid: TaskRunner.TaskRunnerItem`1.Key
+  name: Key
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_Key
+  commentId: P:TaskRunner.TaskRunnerItem`1.Key
+  fullName: TaskRunner.TaskRunnerItem<T>.Key
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).Key
+  nameWithType: TaskRunnerItem<T>.Key
+  nameWithType.vb: TaskRunnerItem(Of T).Key
+- uid: TaskRunner.TaskRunnerItem`1.Key*
+  name: Key
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_Key_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.Key
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.Key
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).Key
+  nameWithType: TaskRunnerItem<T>.Key
+  nameWithType.vb: TaskRunnerItem(Of T).Key
+- uid: TaskRunner.TaskRunnerItem`1.RemoveRunning
+  name: RemoveRunning()
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_RemoveRunning
+  commentId: M:TaskRunner.TaskRunnerItem`1.RemoveRunning
+  fullName: TaskRunner.TaskRunnerItem<T>.RemoveRunning()
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).RemoveRunning()
+  nameWithType: TaskRunnerItem<T>.RemoveRunning()
+  nameWithType.vb: TaskRunnerItem(Of T).RemoveRunning()
+- uid: TaskRunner.TaskRunnerItem`1.RemoveRunning*
+  name: RemoveRunning
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_RemoveRunning_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.RemoveRunning
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.RemoveRunning
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).RemoveRunning
+  nameWithType: TaskRunnerItem<T>.RemoveRunning
+  nameWithType.vb: TaskRunnerItem(Of T).RemoveRunning
+- uid: TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart(System.Int64)
+  name: SetTimeCpuLastStart(long)
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_SetTimeCpuLastStart_System_Int64_
+  commentId: M:TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart(System.Int64)
+  name.vb: SetTimeCpuLastStart(Long)
+  fullName: TaskRunner.TaskRunnerItem<T>.SetTimeCpuLastStart(long)
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).SetTimeCpuLastStart(Long)
+  nameWithType: TaskRunnerItem<T>.SetTimeCpuLastStart(long)
+  nameWithType.vb: TaskRunnerItem(Of T).SetTimeCpuLastStart(Long)
+- uid: TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart*
+  name: SetTimeCpuLastStart
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_SetTimeCpuLastStart_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.SetTimeCpuLastStart
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.SetTimeCpuLastStart
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).SetTimeCpuLastStart
+  nameWithType: TaskRunnerItem<T>.SetTimeCpuLastStart
+  nameWithType.vb: TaskRunnerItem(Of T).SetTimeCpuLastStart
+- uid: TaskRunner.TaskRunnerItem`1.TryGetLastStart(System.Int64@)
+  name: TryGetLastStart(out long)
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryGetLastStart_System_Int64__
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryGetLastStart(System.Int64@)
+  name.vb: TryGetLastStart(Long)
+  fullName: TaskRunner.TaskRunnerItem<T>.TryGetLastStart(out long)
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryGetLastStart(Long)
+  nameWithType: TaskRunnerItem<T>.TryGetLastStart(out long)
+  nameWithType.vb: TaskRunnerItem(Of T).TryGetLastStart(Long)
+- uid: TaskRunner.TaskRunnerItem`1.TryGetLastStart*
+  name: TryGetLastStart
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryGetLastStart_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryGetLastStart
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.TryGetLastStart
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryGetLastStart
+  nameWithType: TaskRunnerItem<T>.TryGetLastStart
+  nameWithType.vb: TaskRunnerItem(Of T).TryGetLastStart
+- uid: TaskRunner.TaskRunnerItem`1.TryRegister
+  name: TryRegister()
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRegister
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRegister
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRegister()
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRegister()
+  nameWithType: TaskRunnerItem<T>.TryRegister()
+  nameWithType.vb: TaskRunnerItem(Of T).TryRegister()
+- uid: TaskRunner.TaskRunnerItem`1.TryRegister*
+  name: TryRegister
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRegister_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRegister
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRegister
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRegister
+  nameWithType: TaskRunnerItem<T>.TryRegister
+  nameWithType.vb: TaskRunnerItem(Of T).TryRegister
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegistered
+  name: TryRemoveRegistered()
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRemoveRegistered
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRemoveRegistered
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegistered()
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegistered()
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegistered()
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegistered()
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegistered*
+  name: TryRemoveRegistered
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRemoveRegistered_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRemoveRegistered
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegistered
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegistered
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegistered
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegistered
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun
+  name: TryRemoveRegisteredDuringRun()
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRemoveRegisteredDuringRun
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegisteredDuringRun()
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun()
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegisteredDuringRun()
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun()
+- uid: TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun*
+  name: TryRemoveRegisteredDuringRun
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRemoveRegisteredDuringRun_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRemoveRegisteredDuringRun
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRemoveRegisteredDuringRun
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun
+  nameWithType: TaskRunnerItem<T>.TryRemoveRegisteredDuringRun
+  nameWithType.vb: TaskRunnerItem(Of T).TryRemoveRegisteredDuringRun
+- uid: TaskRunner.TaskRunnerItem`1.TryRun
+  name: TryRun()
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRun
+  commentId: M:TaskRunner.TaskRunnerItem`1.TryRun
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRun()
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRun()
+  nameWithType: TaskRunnerItem<T>.TryRun()
+  nameWithType.vb: TaskRunnerItem(Of T).TryRun()
+- uid: TaskRunner.TaskRunnerItem`1.TryRun*
+  name: TryRun
+  href: api/TaskRunner.TaskRunnerItem-1.html#TaskRunner_TaskRunnerItem_1_TryRun_
+  commentId: Overload:TaskRunner.TaskRunnerItem`1.TryRun
+  isSpec: "True"
+  fullName: TaskRunner.TaskRunnerItem<T>.TryRun
+  fullName.vb: TaskRunner.TaskRunnerItem(Of T).TryRun
+  nameWithType: TaskRunnerItem<T>.TryRun
+  nameWithType.vb: TaskRunnerItem(Of T).TryRun
+- uid: TaskRunner.Test
+  name: TaskRunner.Test
+  href: api/TaskRunner.Test.html
+  commentId: N:TaskRunner.Test
+  fullName: TaskRunner.Test
+  nameWithType: TaskRunner.Test
+- uid: TaskRunner.Test.MockSender`1
+  name: MockSender<T>
+  href: api/TaskRunner.Test.MockSender-1.html
+  commentId: T:TaskRunner.Test.MockSender`1
+  name.vb: MockSender(Of T)
+  fullName: TaskRunner.Test.MockSender<T>
+  fullName.vb: TaskRunner.Test.MockSender(Of T)
+  nameWithType: MockSender<T>
+  nameWithType.vb: MockSender(Of T)
+- uid: TaskRunner.Test.MockSender`1.OnSendAsyncCalled
+  name: OnSendAsyncCalled
+  href: api/TaskRunner.Test.MockSender-1.html#TaskRunner_Test_MockSender_1_OnSendAsyncCalled
+  commentId: P:TaskRunner.Test.MockSender`1.OnSendAsyncCalled
+  fullName: TaskRunner.Test.MockSender<T>.OnSendAsyncCalled
+  fullName.vb: TaskRunner.Test.MockSender(Of T).OnSendAsyncCalled
+  nameWithType: MockSender<T>.OnSendAsyncCalled
+  nameWithType.vb: MockSender(Of T).OnSendAsyncCalled
+- uid: TaskRunner.Test.MockSender`1.OnSendAsyncCalled*
+  name: OnSendAsyncCalled
+  href: api/TaskRunner.Test.MockSender-1.html#TaskRunner_Test_MockSender_1_OnSendAsyncCalled_
+  commentId: Overload:TaskRunner.Test.MockSender`1.OnSendAsyncCalled
+  isSpec: "True"
+  fullName: TaskRunner.Test.MockSender<T>.OnSendAsyncCalled
+  fullName.vb: TaskRunner.Test.MockSender(Of T).OnSendAsyncCalled
+  nameWithType: MockSender<T>.OnSendAsyncCalled
+  nameWithType.vb: MockSender(Of T).OnSendAsyncCalled
+- uid: TaskRunner.Test.MockSender`1.SendAsync(`0)
+  name: SendAsync(T)
+  href: api/TaskRunner.Test.MockSender-1.html#TaskRunner_Test_MockSender_1_SendAsync__0_
+  commentId: M:TaskRunner.Test.MockSender`1.SendAsync(`0)
+  fullName: TaskRunner.Test.MockSender<T>.SendAsync(T)
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsync(T)
+  nameWithType: MockSender<T>.SendAsync(T)
+  nameWithType.vb: MockSender(Of T).SendAsync(T)
+- uid: TaskRunner.Test.MockSender`1.SendAsync*
+  name: SendAsync
+  href: api/TaskRunner.Test.MockSender-1.html#TaskRunner_Test_MockSender_1_SendAsync_
+  commentId: Overload:TaskRunner.Test.MockSender`1.SendAsync
+  isSpec: "True"
+  fullName: TaskRunner.Test.MockSender<T>.SendAsync
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsync
+  nameWithType: MockSender<T>.SendAsync
+  nameWithType.vb: MockSender(Of T).SendAsync
+- uid: TaskRunner.Test.MockSender`1.SendAsyncReturn
+  name: SendAsyncReturn
+  href: api/TaskRunner.Test.MockSender-1.html#TaskRunner_Test_MockSender_1_SendAsyncReturn
+  commentId: P:TaskRunner.Test.MockSender`1.SendAsyncReturn
+  fullName: TaskRunner.Test.MockSender<T>.SendAsyncReturn
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsyncReturn
+  nameWithType: MockSender<T>.SendAsyncReturn
+  nameWithType.vb: MockSender(Of T).SendAsyncReturn
+- uid: TaskRunner.Test.MockSender`1.SendAsyncReturn*
+  name: SendAsyncReturn
+  href: api/TaskRunner.Test.MockSender-1.html#TaskRunner_Test_MockSender_1_SendAsyncReturn_
+  commentId: Overload:TaskRunner.Test.MockSender`1.SendAsyncReturn
+  isSpec: "True"
+  fullName: TaskRunner.Test.MockSender<T>.SendAsyncReturn
+  fullName.vb: TaskRunner.Test.MockSender(Of T).SendAsyncReturn
+  nameWithType: MockSender<T>.SendAsyncReturn
+  nameWithType.vb: MockSender(Of T).SendAsyncReturn
+- uid: TaskRunner.Test.MockSettings
+  name: MockSettings
+  href: api/TaskRunner.Test.MockSettings.html
+  commentId: T:TaskRunner.Test.MockSettings
+  fullName: TaskRunner.Test.MockSettings
+  nameWithType: MockSettings
+- uid: TaskRunner.Test.MockSettings.ConcurrentCount
+  name: ConcurrentCount
+  href: api/TaskRunner.Test.MockSettings.html#TaskRunner_Test_MockSettings_ConcurrentCount
+  commentId: P:TaskRunner.Test.MockSettings.ConcurrentCount
+  fullName: TaskRunner.Test.MockSettings.ConcurrentCount
+  nameWithType: MockSettings.ConcurrentCount
+- uid: TaskRunner.Test.MockSettings.ConcurrentCount*
+  name: ConcurrentCount
+  href: api/TaskRunner.Test.MockSettings.html#TaskRunner_Test_MockSettings_ConcurrentCount_
+  commentId: Overload:TaskRunner.Test.MockSettings.ConcurrentCount
+  isSpec: "True"
+  fullName: TaskRunner.Test.MockSettings.ConcurrentCount
+  nameWithType: MockSettings.ConcurrentCount
+- uid: TaskRunner.Test.MockSettings.Interval
+  name: Interval
+  href: api/TaskRunner.Test.MockSettings.html#TaskRunner_Test_MockSettings_Interval
+  commentId: P:TaskRunner.Test.MockSettings.Interval
+  fullName: TaskRunner.Test.MockSettings.Interval
+  nameWithType: MockSettings.Interval
+- uid: TaskRunner.Test.MockSettings.Interval*
+  name: Interval
+  href: api/TaskRunner.Test.MockSettings.html#TaskRunner_Test_MockSettings_Interval_
+  commentId: Overload:TaskRunner.Test.MockSettings.Interval
+  isSpec: "True"
+  fullName: TaskRunner.Test.MockSettings.Interval
+  nameWithType: MockSettings.Interval
+- uid: TaskRunner.Test.TestTaskRunner
+  name: TestTaskRunner
+  href: api/TaskRunner.Test.TestTaskRunner.html
+  commentId: T:TaskRunner.Test.TestTaskRunner
+  fullName: TaskRunner.Test.TestTaskRunner
+  nameWithType: TestTaskRunner
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  name: TestAddFourDifferentNamesThenProcess()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddFourDifferentNamesThenProcess
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess()
+  nameWithType: TestTaskRunner.TestAddFourDifferentNamesThenProcess()
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess*
+  name: TestAddFourDifferentNamesThenProcess
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddFourDifferentNamesThenProcess_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourDifferentNamesThenProcess
+  nameWithType: TestTaskRunner.TestAddFourDifferentNamesThenProcess
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  name: TestAddFourOrdersSameNamesThenProcess()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddFourOrdersSameNamesThenProcess
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess()
+  nameWithType: TestTaskRunner.TestAddFourOrdersSameNamesThenProcess()
+- uid: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess*
+  name: TestAddFourOrdersSameNamesThenProcess
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddFourOrdersSameNamesThenProcess_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+  nameWithType: TestTaskRunner.TestAddFourOrdersSameNamesThenProcess
+- uid: TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  name: TestAddLongTask()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddLongTask
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddLongTask()
+  nameWithType: TestTaskRunner.TestAddLongTask()
+- uid: TaskRunner.Test.TestTaskRunner.TestAddLongTask*
+  name: TestAddLongTask
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddLongTask_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddLongTask
+  nameWithType: TestTaskRunner.TestAddLongTask
+- uid: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  name: TestAddMultipleTimes()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddMultipleTimes
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes()
+  nameWithType: TestTaskRunner.TestAddMultipleTimes()
+- uid: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes*
+  name: TestAddMultipleTimes
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddMultipleTimes_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddMultipleTimes
+  nameWithType: TestTaskRunner.TestAddMultipleTimes
+- uid: TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  name: TestAddThenProcess()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddThenProcess
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddThenProcess()
+  nameWithType: TestTaskRunner.TestAddThenProcess()
+- uid: TaskRunner.Test.TestTaskRunner.TestAddThenProcess*
+  name: TestAddThenProcess
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestAddThenProcess_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestAddThenProcess
+  nameWithType: TestTaskRunner.TestAddThenProcess
+- uid: TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  name: TestBiggerFlow()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestBiggerFlow
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  fullName: TaskRunner.Test.TestTaskRunner.TestBiggerFlow()
+  nameWithType: TestTaskRunner.TestBiggerFlow()
+- uid: TaskRunner.Test.TestTaskRunner.TestBiggerFlow*
+  name: TestBiggerFlow
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestBiggerFlow_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestBiggerFlow
+  nameWithType: TestTaskRunner.TestBiggerFlow
+- uid: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  name: TestRunPrioritizeOldest()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestRunPrioritizeOldest
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest()
+  nameWithType: TestTaskRunner.TestRunPrioritizeOldest()
+- uid: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest*
+  name: TestRunPrioritizeOldest
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestRunPrioritizeOldest_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunPrioritizeOldest
+  nameWithType: TestTaskRunner.TestRunPrioritizeOldest
+- uid: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  name: TestRunRemoveAdded()
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestRunRemoveAdded
+  commentId: M:TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded()
+  nameWithType: TestTaskRunner.TestRunRemoveAdded()
+- uid: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded*
+  name: TestRunRemoveAdded
+  href: api/TaskRunner.Test.TestTaskRunner.html#TaskRunner_Test_TestTaskRunner_TestRunRemoveAdded_
+  commentId: Overload:TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  isSpec: "True"
+  fullName: TaskRunner.Test.TestTaskRunner.TestRunRemoveAdded
+  nameWithType: TestTaskRunner.TestRunRemoveAdded
