@@ -1,10 +1,10 @@
-## task-runner-doc
+## TaskRunner documentation
 
 Documentation for TaskRunner
 
-## Getting started
+## Basic owerview
 
-Start write your documentation by adding more markdown (.md) files to this folder (/docs) or replace the content in this file.
+TaskRunner is atomic function for run task by rulles.
 
 ## Table of Contents
 
