@@ -4,9 +4,9 @@ site_description: "Documentation for TaskRunner"
 nav:
   - Introduction: index.md
   - Api: ./Api/index.md
-  - 'User Guide':
-        - 'Writing your docs': 'writing-your-docs.md'
-        - 'Styling your docs': 'styling-your-docs.md'
+  - 'API Documentation':
+        - 'TaskRunner': './Api/TaskRunner/index.md'
+        - 'TaskRunner.Test': './Api/TaskRunner.Test/index.md'
 
 plugins:
   - techdocs-core
