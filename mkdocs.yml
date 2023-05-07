@@ -3,7 +3,6 @@ site_description: "Documentation for TaskRunner"
 
 nav:
   - Introduction: index.md
-  - Api: ./Api/index.md
   - 'API Documentation':
         - 'TaskRunner': './Api/TaskRunner/index.md'
         - 'TaskRunner.Test': './Api/TaskRunner.Test/index.md'
