@@ -3,7 +3,7 @@ site_description: "Documentation for TaskRunner"
 
 nav:
   - Introduction: index.md
-  - Api: /Api/index.md
+  - Api: ./Api/index.md
 
 plugins:
   - techdocs-core
